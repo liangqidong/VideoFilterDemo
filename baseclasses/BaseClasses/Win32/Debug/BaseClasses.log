@@ -1,0 +1,33 @@
+﻿  wxutil.cpp
+f:\vsproject\filter\audioprocess\branches\individual\liangqidong\audiofilter\baseclasses\wxutil.cpp(755): warning C4996: 'GetVersionExW': was declared deprecated
+  c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(442): note: see declaration of 'GetVersionExW'
+  wxlist.cpp
+  wxdebug.cpp
+  winutil.cpp
+  winctrl.cpp
+  vtrans.cpp
+  videoctl.cpp
+  transip.cpp
+  transfrm.cpp
+  sysclock.cpp
+  strmctl.cpp
+  source.cpp
+  seekpt.cpp
+  schedule.cpp
+  renbase.cpp
+  refclock.cpp
+  pullpin.cpp
+  pstream.cpp
+  perflog.cpp
+  outputq.cpp
+  Generating Code...
+  Compiling...
+  mtype.cpp
+  dllsetup.cpp
+  dllentry.cpp
+f:\vsproject\filter\audioprocess\branches\individual\liangqidong\audiofilter\baseclasses\dllentry.cpp(314): warning C4996: 'GetVersionExW': was declared deprecated
+  c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(442): note: see declaration of 'GetVersionExW'
+  ddmm.cpp
+  ctlutil.cpp
+  cprop.cpp
+MSBUILD : error MSB4166: Child node "3" exited prematurely. Shutting down. Diagnostic information may be found in files in the temporary files directory named MSBuild_*.failure.txt.
