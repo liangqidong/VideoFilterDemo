@@ -1,9 +1,0 @@
-﻿  VideoFilterOutputPin.cpp
-  VideoFilterInputPin.cpp
-  VideoFilterDemoPage.cpp
-  VideoFilterDemo.cpp
-  Setup.cpp
-  Generating Code...
-VideoFilter.def : error LNK2001: unresolved external symbol DllCanUnloadNow
-VideoFilter.def : error LNK2001: unresolved external symbol DllGetClassObject
-F:\vsProject\gitDemo\VideoFilterDemo\x64\Debug\VideoFilterDemo.lib : fatal error LNK1120: 2 unresolved externals
