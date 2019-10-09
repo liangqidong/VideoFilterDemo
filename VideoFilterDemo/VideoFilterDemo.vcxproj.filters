@@ -18,42 +18,45 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="VideoFilterDemo.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="VideoFilterDemoPage.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Setup.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="VideoFilterInputPin.cpp">
+    <ClCompile Include="FilterOutputPin.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="VideoFilterOutputPin.cpp">
+    <ClCompile Include="FilterInputPin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterPinPage.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="VideoFilterDemo.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="VideoFilterDemoPage.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="IVideoFilter.h">
-      <Filter>Interface</Filter>
-    </ClInclude>
     <ClInclude Include="IVideoFilterPropertyPage.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="resource.h">
-      <Filter>Resource Files</Filter>
-    </ClInclude>
-    <ClInclude Include="VideoFilterInputPin.h">
+    <ClInclude Include="FilterOutputPin.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="VideoFilterOutputPin.h">
+    <ClInclude Include="FilterInputPin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterDemo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IFilterPin.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IFilterInterface.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterPinPage.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -61,5 +64,10 @@
     <None Include="VideoFilter.def">
       <Filter>Source Files</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VideoFilterDemo.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>

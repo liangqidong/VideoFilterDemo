@@ -8,8 +8,8 @@
 #include <initguid.h>
 #include <tchar.h>
 
-#include "VideoFilterDemo.h"
-#include "VideoFilterDemoPage.h"
+#include "FilterDemo.h"
+#include "FilterPinPage.h"
 
 const AMOVIESETUP_MEDIATYPE OutputVideoPinTypes =
 {
@@ -59,14 +59,15 @@ const AMOVIESETUP_PIN outputPins[] =
 		FALSE,
 		&CLSID_NULL,
 		NULL,
-		1,
-		&OutputVideoPinTypes
+		/*1*/0,
+		NULL
+		/*&OutputVideoPinTypes*/
 	}
 };
 
 const AMOVIESETUP_FILTER Capture =
 {
-	&CLSID_VideoFilter,
+	&CLSID_Filter,
 	FILTER_NAME,
 	MERIT_NORMAL,
 	0,
@@ -77,16 +78,16 @@ CFactoryTemplate g_Templates[] =
 {
 	{
 		FILTER_NAME,
-		&CLSID_VideoFilter,
-		VideoFilterDemo::CreateInstance,
+		&CLSID_Filter,
+		FilterDemo::CreateInstance,
 		NULL,
 		&Capture
 	},
 
 	{
 		FILTER_PAGE_NAME,
-		&CLSID_VideoFilterProp,
-		VideoFilterDemoPage::CreateInstance,
+		&CLSID_FilterProp,
+		FilterPinPage::CreateInstance,
 		NULL,
 		NULL
 	},

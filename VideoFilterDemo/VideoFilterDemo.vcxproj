@@ -159,22 +159,26 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Setup.cpp" />
-    <ClCompile Include="VideoFilterDemo.cpp" />
-    <ClCompile Include="VideoFilterDemoPage.cpp" />
-    <ClCompile Include="VideoFilterInputPin.cpp" />
-    <ClCompile Include="VideoFilterOutputPin.cpp" />
+    <ClCompile Include="FilterDemo.cpp" />
+    <ClCompile Include="FilterPinPage.cpp" />
+    <ClCompile Include="FilterInputPin.cpp" />
+    <ClCompile Include="FilterOutputPin.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="IVideoFilter.h" />
+    <ClInclude Include="IFilterInterface.h" />
+    <ClInclude Include="IFilterPin.h" />
     <ClInclude Include="IVideoFilterPropertyPage.h" />
+    <ClInclude Include="FilterDemo.h" />
     <ClInclude Include="resource.h" />
-    <ClInclude Include="VideoFilterDemo.h" />
-    <ClInclude Include="VideoFilterDemoPage.h" />
-    <ClInclude Include="VideoFilterInputPin.h" />
-    <ClInclude Include="VideoFilterOutputPin.h" />
+    <ClInclude Include="FilterPinPage.h" />
+    <ClInclude Include="FilterInputPin.h" />
+    <ClInclude Include="FilterOutputPin.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="VideoFilter.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VideoFilterDemo.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

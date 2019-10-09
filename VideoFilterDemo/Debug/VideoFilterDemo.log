@@ -1,0 +1,5 @@
+﻿  FilterDemo.cpp
+f:\vsproject\gitdemo\videofilterdemo\videofilterdemo\filterdemo.cpp(91): warning C4018: '>': signed/unsigned mismatch
+f:\vsproject\gitdemo\videofilterdemo\videofilterdemo\filterdemo.cpp(96): warning C4018: '<': signed/unsigned mismatch
+  VideoFilterDemo.vcxproj -> F:\vsProject\gitDemo\VideoFilterDemo\Debug\VideoFilterDemo.dll
+  VideoFilterDemo.vcxproj -> F:\vsProject\gitDemo\VideoFilterDemo\Debug\VideoFilterDemo.pdb (Full PDB)
